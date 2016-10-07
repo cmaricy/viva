@@ -1,0 +1,38 @@
+{
+  "name": "Vivamente",
+  "description": "Simple app for FB",
+  "version": "0.0.1",
+  "private": true,
+   "engines": {
+    "node": "^4.5.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.2",
+    "express": "3.2.6",
+    "express-session": "^1.14.1",
+    "mongoose": "^4.6.0",
+    "morgan": "^1.7.0",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1",
+    "passport-facebook-canvas": "0.0.3"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cmaricy/Vivamente.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
+}
